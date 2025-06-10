@@ -16,6 +16,10 @@ A highly optimized dark theme for [Visual Studio Code](http://code.visualstudio.
 
 Futuremotion Midnight can be activated by selecting `File -> Preferences -> Color Theme`.
 
+## Screenshot
+
+![Futuremotion Midnight Screenshot](screenshot.png)
+
 ## License
 
 [MIT License](./LICENSE)
