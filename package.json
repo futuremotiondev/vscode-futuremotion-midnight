@@ -1,0 +1,53 @@
+{
+    "name": "futuremotion-midnight",
+    "version": "1.0.0",
+    "displayName": "Official Futuremotion Midnight",
+    "homepage": "https://github.com/futuremotiondev/vscode-futuremotion-midnight",
+    "description": "An sleek and streamlined dark coding experience.",
+    "publisher": "Futuremotion",
+    "license": "MIT",
+    "scripts": {
+        "package": "vsce package -o ./bin/futuremotion-midnight.vsix",
+        "vsce-publish": "vsce publish"
+    },
+    "maintainers": [
+        "Futuremotion"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/futuremotiondev/vscode-futuremotion-midnight.git"
+    },
+    "bugs": {
+        "url": "https://github.com/futuremotiondev/vscode-futuremotion-midnight/issues"
+    },
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "midnight",
+        "dark",
+        "black",
+        "theme",
+        "color-theme"
+    ],
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#17191D",
+        "theme": "dark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Futuremotion Midnight Theme",
+                "uiTheme": "vs-dark",
+                "path": "./theme/fm-midnight.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "vsce": "^2.15.0"
+    }
+}
