@@ -1,5 +1,3 @@
-![Futuremotion Logo](icon.png)
-
 # Futuremotion Midnight for [Visual Studio Code](http://code.visualstudio.com)
 
 A highly optimized dark theme for [Visual Studio Code](http://code.visualstudio.com).
