@@ -5,7 +5,7 @@
     "homepage": "https://github.com/futuremotiondev/vscode-futuremotion-midnight",
     "description": "An sleek and streamlined dark coding experience.",
     "publisher": "Futuremotion",
-    "license": "MIT",
+    "license": "LICENSE.md",
     "scripts": {
         "package": "mkdir bin && vsce package -o ./bin/futuremotion-midnight.vsix",
         "vsce-publish": "vsce publish"
@@ -29,7 +29,6 @@
     "keywords": [
         "midnight",
         "dark",
-        "black",
         "theme",
         "color-theme"
     ],
@@ -46,8 +45,5 @@
                 "path": "./theme/fm-midnight.json"
             }
         ]
-    },
-    "devDependencies": {
-        "vsce": "^2.15.0"
     }
 }
