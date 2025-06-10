@@ -7,7 +7,7 @@
     "publisher": "Futuremotion",
     "license": "MIT",
     "scripts": {
-        "package": "vsce package -o ./bin/futuremotion-midnight.vsix",
+        "package": "mkdir bin && vsce package -o ./bin/futuremotion-midnight.vsix",
         "vsce-publish": "vsce publish"
     },
     "maintainers": [
